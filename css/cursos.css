@@ -82,7 +82,7 @@
     justify-content: space-around;
     align-items: center;
     background-repeat: no-repeat;
-    background-size: 2rem 2 rem;
+    background-size: 2rem 2rem;
     background-position: top .6rem center;
     padding-top: 2.5rem;
     transition: .25s;
@@ -169,7 +169,7 @@
 
     .cursos__list li{
         background-repeat: no-repeat;
-        background-size: 2rem 2 rem;
+        background-size: 2rem 2rem;
         background-position: top 1rem center;
         padding-top: 2.5rem;       
     }

@@ -20,7 +20,7 @@
 .app__text{
     line-height: 20px;
     margin-bottom: 15px;
-    grid-column-end: span 2;
+    grid-column-end: span 3;
 }
 
 .text__destaque{
