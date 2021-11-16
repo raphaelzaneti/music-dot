@@ -1,0 +1,135 @@
+
+html{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title--main{
+    color: #3d3d3d;
+    background-color: #e1edf2;
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+
+.title--secondary{
+    border-bottom: solid;
+}
+
+.figure{
+    text-align: center;
+    background-color: whitesmoke;
+    color: lightgray;
+    padding: 15px;
+    margin: 30px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.figure > img{
+
+    margin-bottom: 10px;
+    width: inherit;
+}
+
+.sobre__figure{
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.historia__figure{
+    width: 275px;
+    float: right;
+}
+
+.contact__section{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 16px;
+}
+
+.contact__section--phone{
+    margin-left: 32px;
+}
+
+.contact__title--display{
+    display: inline-block;
+}
+
+.contact__content{
+    margin: 16px 0 24px;
+    padding-left: 32px;
+}
+
+.contact__content--description, .contact__content--title{
+    display: inline-block;
+}
+
+.contact__content--description{
+    margin-left: 10px;
+}
+
+.footer{
+    padding: 0.75rem 0;
+    font-size: 1.1rem;
+}
+
+.footer__logo{
+    width: 6em;
+}
+
+.footer__copyright{
+    display: inline;
+    margin-left: 1em;
+}
+
+@media screen and (max-width: 850px) {
+    .contact__section{
+        display: block;
+        margin-left: 1em;
+    }
+}
+
+@media screen and (max-width: 622px) {
+    .historia__figure{
+        float: none;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 446px){
+    .contact__content--description, .contact__content--title{
+        display: block;
+        margin-bottom: 0;
+    }
+
+    .contact__content{
+        padding-left: 5px;
+        margin-left: 0;
+        border-left: 1px lightgray;
+        font-size: 0.92em;
+    }
+
+    .footer{
+        font-size: 0.92em;
+    }
+}
+
+@media screen and (max-width: 342px){
+    .contact__content--title{
+        display: block;
+    }
+
+    .contact__content--description{
+        display: block;
+        padding-left: 1em;
+    }
+}

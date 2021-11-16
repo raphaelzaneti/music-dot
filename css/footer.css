@@ -1,0 +1,157 @@
+.footer__container{
+    text-align: center;
+}
+
+.footer__logo{
+    width: 11.25em;
+    margin-bottom: 1em;
+}
+
+.footer__container > *{
+    display: inline-block;
+    margin: 1em auto;
+}
+
+.footer__section > a {
+    display: inline-block;
+}
+
+.footer__adress-container{
+    margin: 1.2em 0;
+}
+
+.footer__adress-container p{
+    line-height: 0.4em;
+}
+
+.footer__social-medias{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.footer__social-medias--item{
+    width: 2.62em;
+    margin-right: 0.25em;
+}
+
+.footer__social-medias--item img{
+    width: 100%;
+}
+
+.footer__title{
+    margin-bottom: 1em;
+
+    font-size: 1.45em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.footer__list-item{
+    font-weight: 500;
+    margin: 0.625em 0;
+}
+
+.footer__form-email{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.footer__label-email{
+    display: none;
+}
+
+.footer__input-email{
+    height: 3em;
+    width: 15em;
+    padding: 0;
+    border: 0.3em solid red;
+    border-right: 0;
+    border-radius: 0.5em;
+
+}
+
+.footer__input-email-button{
+    width: 10em;
+    margin-left: -0.8em;
+    color: white;
+    font-weight: bold;
+    background-color: red;
+    border: none;
+    border-radius: 0.5em;
+}
+
+@media (max-width: 640px) {
+    .footer__section + .footer__section{
+        margin-top: 2em;
+    }
+}
+
+@media (min-width: 640px) and (max-width: 1200px) {
+    .footer__container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        font-size: 1rem;
+    }
+
+    .footer__section--sobre
+    .footer__section--cursos
+    .footer__section--links
+    .footer__section--email{
+        width: 45%;
+    }
+    
+    .footer__section--cursos{
+        order: 1;
+        margin: 0;
+    }
+
+    .footer__section--links{
+        order: 2;
+        margin: 0;
+    }
+
+    .footer__section--sobre{
+        order: 3;
+        margin-top: 2em;
+    }
+
+    .footer__section--email{
+        order: 4;
+        margin-top: 2em;
+    }
+
+}
+
+@media (min-width: 1200px){
+ 
+    .footer__container{
+        display: flex;
+        justify-content: space-between;
+
+        font-size: 0.85rem;
+
+        text-align: left;
+    }
+
+    .footer__title{
+        font-size: 1em;
+    }
+
+    .footer__social-medias{
+        justify-content: left;
+    }
+    
+    .footer__section{
+        margin-top: 0;
+    }
+
+    .footer__section + .footer__section{
+        margin-left: 2em;
+    }
+    
+}
