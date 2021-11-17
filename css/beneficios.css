@@ -1,5 +1,6 @@
 .beneficios{
     text-align: center;
+    margin-top: 1rem;
     margin-bottom: 2rem;
     padding: 0 10%;
     display: flex;
@@ -67,6 +68,10 @@
 }
 
 @media(min-width:1200px){
+    .beneficios{
+        margin-top: 2rem;
+    }
+    
     .beneficios__title{
         font-size: 1.3rem;
     }

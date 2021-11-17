@@ -1,3 +1,5 @@
+@import url(./container.css);
+
 .chamada__youtube{
     background-color: #2e4255;
     display: grid;
@@ -5,7 +7,7 @@
 }
 
 .chamada__youtube__canal{
-    color: #fff;
+    color: var(--main-color-white);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,7 +31,7 @@
 }
 
 .canal__title{
-    color: #e93d50;
+    color: var(--main-color-red);
     font-size: 1rem;
     font-weight: 700;
     margin-top: 0.9rem;
@@ -44,8 +46,8 @@
 }
 
 .canal__button{
-    color: #fff;
-    background-color: #e93d50;
+    color: var(--main-color-white);
+    background-color: var(--main-color-red);
 }
 
 .video__description{
@@ -80,7 +82,16 @@
 .chamada__youtube--video1, .chamada__youtube--video2{
     background-size: cover;
     width: 100%;
+    height: 8rem;
 }
+
+@media(min-width: 600px){
+    .chamada__youtube--video1, .chamada__youtube--video2{
+        height: 15rem;
+        padding-top: 10rem;
+    }   
+}
+
 
 @media(min-width:768px){
     .chamada__youtube{
@@ -119,6 +130,10 @@
 }
 
 @media(min-width:1200px){
+    .chamada__youtube--video1, .chamada__youtube--video2{
+        padding-top: 8rem;
+    }   
+
     .youtube__info{
         padding: 4rem 20%;
     }

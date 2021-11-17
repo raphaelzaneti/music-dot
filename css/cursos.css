@@ -24,7 +24,7 @@
 }
 
 .cursos{
-    color: #fff;
+    color: var(--main-color-white);
     text-align: center;
     background-image: url(../img/home-background-mobile.png);
     background-size: cover;
@@ -41,14 +41,14 @@
 }
 
 .cursos__main__title{
-    color: #e93d50;
+    color: var(--main-color-red);
     font-weight: 700;
     font-size: 1.2rem;
     margin-bottom: .3rem;
 }
 
 .cursos__main__title--destaque{
-    color: #fff;
+    color: var(--main-color-white);
 }
 
 .cursos__main p{
@@ -58,8 +58,8 @@
 }
 
 .cursos__main__matricula{
-    color: #fff;
-    background-color: #e93d50;
+    color: var(--main-color-white);
+    background-color: var(--main-color-red);
 }
 
 .cursos__list{

@@ -1,5 +1,8 @@
+@import url(./container.css);
+
 .footer__container{
     text-align: center;
+    margin-top: 2rem;
 }
 
 .footer__logo{
@@ -87,6 +90,7 @@
     .footer__section + .footer__section{
         margin-top: 2em;
     }
+
 }
 
 @media (min-width: 640px) and (max-width: 1200px) {
@@ -108,16 +112,18 @@
     .footer__section--cursos{
         order: 1;
         margin: 0;
+        margin-right: 3rem;
     }
 
     .footer__section--links{
         order: 2;
         margin: 0;
+        margin-left: 3rem;
     }
 
     .footer__section--sobre{
         order: 3;
-        margin-top: 2em;
+        margin-top: 0;
     }
 
     .footer__section--email{

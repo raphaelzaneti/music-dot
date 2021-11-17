@@ -1,3 +1,10 @@
+:root{
+    --main-color-header: #272b3a87;
+    --main-color-red: #e93d50;
+    --main-color-white: #fff;
+    --main-color-plano: #f76148;
+}
+
 .container{
     padding-left: 5%;
     padding-right: 5%;
